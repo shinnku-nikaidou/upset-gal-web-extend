@@ -1,0 +1,6 @@
+[submodule "blog"]
+	path = blog
+	url = https://github.com/shinnku-nikaidou/upset-gal-docs-blog.git
+[submodule "docs"]
+	path = docs
+	url = https://github.com/shinnku-nikaidou/upset-gal-docs-content.git
