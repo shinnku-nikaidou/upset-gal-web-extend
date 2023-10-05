@@ -11,7 +11,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   url: 'https://shinnku.com',
-  baseUrl: '/',
+  baseUrl: '/extend/',
 
   organizationName: 'shinnku-nikaidou',
   projectName: 'upset-gal-web',
