@@ -37,14 +37,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/shinnku-nikaidou/upset-gal-web',
+            'https://github.com/shinnku-nikaidou/upset-gal-web-extend',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/shinnku-nikaidou/upset-gal-web',
+            'https://github.com/shinnku-nikaidou/upset-gal-web-extend',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -73,7 +73,7 @@ const config = {
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/shinnku-nikaidou/upset-gal-web-extend',
             label: 'GitHub',
             position: 'right',
           },
@@ -114,8 +114,10 @@ const config = {
               {
                 label: 'Blog',
                 to: '/blog',
-              },
-              {
+              }, {
+                label: 'Docs',
+                to: '/docs',
+              }, {
                 label: 'GitHub',
                 href: 'https://github.com/shinnku-nikaidou/upset-gal-web',
               },
