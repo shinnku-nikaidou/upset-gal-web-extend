@@ -37,18 +37,6 @@ export default function Home() {
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-      <script
-        async
-        src='https://www.googletagmanager.com/gtag/js?id=G-61P3NL510C'
-      ></script>
-      <script id='google-analytics'>
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-61P3NL510C');
-        `}
-      </script>
       <HomepageHeader />
       <main>
         <HomepageFeatures />

@@ -8,6 +8,9 @@ dependencies:
   '@docusaurus/core':
     specifier: 2.4.3
     version: 2.4.3(@docusaurus/types@2.4.3)(react-dom@17.0.2)(react@17.0.2)(typescript@5.2.2)
+  '@docusaurus/plugin-google-gtag':
+    specifier: ^2.4.3
+    version: 2.4.3(react-dom@17.0.2)(react@17.0.2)(typescript@5.2.2)
   '@docusaurus/preset-classic':
     specifier: 2.4.3
     version: 2.4.3(@algolia/client-search@4.20.0)(react-dom@17.0.2)(react@17.0.2)(search-insights@2.9.0)(typescript@5.2.2)
@@ -524,7 +527,7 @@ packages:
       '@babel/core': ^7.0.0-0
     dependencies:
       '@babel/core': 7.12.9
-      '@babel/helper-plugin-utils': 7.10.4
+      '@babel/helper-plugin-utils': 7.22.5
       '@babel/plugin-syntax-object-rest-spread': 7.8.3(@babel/core@7.12.9)
       '@babel/plugin-transform-parameters': 7.22.15(@babel/core@7.12.9)
     dev: false
